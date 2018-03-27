@@ -4,6 +4,7 @@
 def base_pods
   pod 'MGExtensionSwift', '~> 0.0.2'
   pod 'MGUtilsSwift', '~> 0.0.2'
+  pod 'MGBaseViewSwift', '~> 0.0.3'
 end
 
 target 'MGViewsSwift' do

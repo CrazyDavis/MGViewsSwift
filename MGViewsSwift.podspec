@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGViewsSwift"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "All Views"
 
   # This description is used to generate tags and improve search results.
@@ -136,5 +136,6 @@ Pod::Spec.new do |s|
   # s.dependency "JSONKit", "~> 1.4"
   s.dependency 'MGExtensionSwift', '~> 0.0.2'
   s.dependency 'MGUtilsSwift', '~> 0.0.2'
+  s.dependency 'MGBaseViewSwift', '~> 0.0.3'
 
 end

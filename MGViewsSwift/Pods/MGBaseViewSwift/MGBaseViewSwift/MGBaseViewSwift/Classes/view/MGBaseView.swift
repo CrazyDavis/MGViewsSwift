@@ -17,7 +17,7 @@ import UIKit
  4. 初始化view呼叫 setupView
  5. padding屬性引入
  */
-public class MGBaseView : UIView {
+open class MGBaseView : UIView {
 
     //padding預設值, 以此判斷padding某邊是否有設定
     private static let PADDING_DEFAULT: CGFloat = -1001

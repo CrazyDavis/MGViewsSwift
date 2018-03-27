@@ -8,6 +8,7 @@
 
 import UIKit
 import MGExtensionSwift
+import MGBaseViewSwift
 
 @IBDesignable class MGMultiIconView: MGBaseView {
 

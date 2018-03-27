@@ -135,6 +135,7 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CLImagePickerTool/CLImagePickerTool.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MGUtilsSwift/MGUtilsSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"
@@ -143,6 +144,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/CLImagePickerTool/CLImagePickerTool.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/MGUtilsSwift/MGUtilsSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework"

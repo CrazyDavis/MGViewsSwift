@@ -17,7 +17,6 @@
 		B8B8BC212068D2B7005E5906 /* MGBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC132068D2B7005E5906 /* MGBannerView.swift */; };
 		B8B8BC222068D2B7005E5906 /* MGBaseImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC142068D2B7005E5906 /* MGBaseImageView.swift */; };
 		B8B8BC232068D2B7005E5906 /* MGBaseLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC152068D2B7005E5906 /* MGBaseLabel.swift */; };
-		B8B8BC242068D2B7005E5906 /* MGBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC162068D2B7005E5906 /* MGBaseView.swift */; };
 		B8B8BC252068D2B7005E5906 /* MGBlankShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC172068D2B7005E5906 /* MGBlankShadowView.swift */; };
 		B8B8BC262068D2B7005E5906 /* MGCheckbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC182068D2B7005E5906 /* MGCheckbox.swift */; };
 		B8B8BC272068D2B7005E5906 /* MGMarqueeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC192068D2B7005E5906 /* MGMarqueeLabel.swift */; };
@@ -44,7 +43,6 @@
 		B8B8BC132068D2B7005E5906 /* MGBannerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGBannerView.swift; sourceTree = "<group>"; };
 		B8B8BC142068D2B7005E5906 /* MGBaseImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGBaseImageView.swift; sourceTree = "<group>"; };
 		B8B8BC152068D2B7005E5906 /* MGBaseLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGBaseLabel.swift; sourceTree = "<group>"; };
-		B8B8BC162068D2B7005E5906 /* MGBaseView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGBaseView.swift; sourceTree = "<group>"; };
 		B8B8BC172068D2B7005E5906 /* MGBlankShadowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGBlankShadowView.swift; sourceTree = "<group>"; };
 		B8B8BC182068D2B7005E5906 /* MGCheckbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGCheckbox.swift; sourceTree = "<group>"; };
 		B8B8BC192068D2B7005E5906 /* MGMarqueeLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGMarqueeLabel.swift; sourceTree = "<group>"; };
@@ -132,7 +130,6 @@
 				B8B8BC132068D2B7005E5906 /* MGBannerView.swift */,
 				B8B8BC142068D2B7005E5906 /* MGBaseImageView.swift */,
 				B8B8BC152068D2B7005E5906 /* MGBaseLabel.swift */,
-				B8B8BC162068D2B7005E5906 /* MGBaseView.swift */,
 				B8B8BC172068D2B7005E5906 /* MGBlankShadowView.swift */,
 				B8B8BC182068D2B7005E5906 /* MGCheckbox.swift */,
 				B8B8BC192068D2B7005E5906 /* MGMarqueeLabel.swift */,
@@ -243,6 +240,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CLImagePickerTool/CLImagePickerTool.framework",
+				"${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MGUtilsSwift/MGUtilsSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
@@ -252,6 +250,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLImagePickerTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGBaseViewSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGExtensionSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGUtilsSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
@@ -292,7 +291,6 @@
 				B8B8BC232068D2B7005E5906 /* MGBaseLabel.swift in Sources */,
 				B8B8BC2B2068D2B7005E5906 /* MGRotateImageView.swift in Sources */,
 				B8B8BC212068D2B7005E5906 /* MGBannerView.swift in Sources */,
-				B8B8BC242068D2B7005E5906 /* MGBaseView.swift in Sources */,
 				B8B8BC282068D2B7005E5906 /* MGMultiIconView.swift in Sources */,
 				B8B8BC292068D2B7005E5906 /* MGPercentPositionLayout.swift in Sources */,
 				B8B8BC2A2068D2B7005E5906 /* MGRadioButton.swift in Sources */,
