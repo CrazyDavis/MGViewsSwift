@@ -23,7 +23,7 @@ public class MGTableViewEmptySupport: UITableView {
         }
     }
 
-    var emptyLabel: UILabel!
+    public var emptyLabel: UILabel!
 
     public override func didMoveToSuperview() {
         if emptyLabel == nil {
