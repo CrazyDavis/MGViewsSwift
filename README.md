@@ -3,4 +3,4 @@ All views
 
 使用方法:  
 
-pod 'MGViewsSwift', '~> 0.0.2'
+pod 'MGViewsSwift', '~> 0.0.3'
