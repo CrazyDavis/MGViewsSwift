@@ -2,9 +2,9 @@
 # platform :ios, '9.0'
 
 def base_pods
-  pod 'MGExtensionSwift', '~> 0.0.2'
-  pod 'MGUtilsSwift', '~> 0.0.2'
-  pod 'MGBaseViewSwift', '~> 0.0.3'
+  pod 'MGExtensionSwift'
+  pod 'MGUtilsSwift'
+  pod 'MGBaseViewSwift'
 end
 
 target 'MGViewsSwift' do
