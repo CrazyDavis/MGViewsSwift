@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGViewsSwift"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "All Views"
 
   # This description is used to generate tags and improve search results.
@@ -134,8 +134,8 @@ Pod::Spec.new do |s|
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
-  s.dependency 'MGExtensionSwift', '~> 0.0.2'
-  s.dependency 'MGUtilsSwift', '~> 0.0.2'
-  s.dependency 'MGBaseViewSwift', '~> 0.0.3'
+  s.dependency 'MGExtensionSwift'
+  s.dependency 'MGUtilsSwift'
+  s.dependency 'MGBaseViewSwift'
 
 end
