@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		AC7E605193216ED9CEED5AA7 /* Pods_MGViewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */; };
-		B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */; };
 		B8B8BBFF2068C448005E5906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BBFE2068C448005E5906 /* AppDelegate.swift */; };
 		B8B8BC012068C448005E5906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC002068C448005E5906 /* ViewController.swift */; };
 		B8B8BC042068C448005E5906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B8BC022068C448005E5906 /* Main.storyboard */; };
@@ -33,7 +32,6 @@
 		03103CA61349EA41C2CFFA11 /* Pods-MGViewsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		1E5E5789DC870E807DB9FC89 /* Pods-MGViewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.release.xcconfig"; sourceTree = "<group>"; };
 		AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGViewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTableViewEmptySupport.swift; sourceTree = "<group>"; };
 		B8B8BBFB2068C448005E5906 /* MGViewsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGViewsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B8BBFE2068C448005E5906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B8BC002068C448005E5906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -128,7 +126,6 @@
 		B8B8BC112068D2B7005E5906 /* view */ = {
 			isa = PBXGroup;
 			children = (
-				B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */,
 				B8B8BC122068D2B7005E5906 /* EndEditingScrollView.swift */,
 				B8B8BC132068D2B7005E5906 /* MGBannerView.swift */,
 				B8B8BC142068D2B7005E5906 /* MGBaseImageView.swift */,
@@ -298,7 +295,6 @@
 				B8B8BC292068D2B7005E5906 /* MGPercentPositionLayout.swift in Sources */,
 				B8B8BC2A2068D2B7005E5906 /* MGRadioButton.swift in Sources */,
 				B8B8BBFF2068C448005E5906 /* AppDelegate.swift in Sources */,
-				B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */,
 				B8B8BC252068D2B7005E5906 /* MGBlankShadowView.swift in Sources */,
 				B8B8BC2C2068D2B7005E5906 /* MGRoundView.swift in Sources */,
 				B8B8BC2D2068D2B7005E5906 /* MGTextTabLayout.swift in Sources */,
