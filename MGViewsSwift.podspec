@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGViewsSwift"
-  s.version      = "0.1.1"
+  s.version      = "0.1.2"
   s.summary      = "All views"
 
   # This description is used to generate tags and improve search results.
