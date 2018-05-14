@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import MGBaseViewSwift
 
 //可隨著手指移動的view
 public class MGPanMoveView: MGBaseView {
@@ -15,11 +16,11 @@ public class MGPanMoveView: MGBaseView {
     //可滑動選項是否開啟
     public var panEnabled: Bool = true
 
-    override init(frame: CGRect) {
+    override public init(frame: CGRect) {
         super.init(frame: frame)
     }
 
-    required init?(coder aDecoder: NSCoder) {
+    required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
     }
 
@@ -29,7 +30,11 @@ public class MGPanMoveView: MGBaseView {
     //開始移動的點
     private var startPoint = CGPoint()
 
-    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+    //螢幕長寬
+    private var screenWidth: CGFloat = UIScreen.main.bounds.width
+    private var screenHeight: CGFloat = UIScreen.main.bounds.height
+
+    override public func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !panEnabled {
             super.touchesBegan(touches, with: event)
             return
@@ -40,7 +45,7 @@ public class MGPanMoveView: MGBaseView {
         super.touchesBegan(touches, with: event)
     }
 
-    override func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override public func touchesMoved(_ touches: Set<UITouch>, with event: UIEvent?) {
         if !panEnabled {
             super.touchesMoved(touches, with: event)
             return

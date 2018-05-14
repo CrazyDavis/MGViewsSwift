@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "MGViewsSwift"
-  s.version      = "0.1.0"
-  s.summary      = "All Views"
+  s.version      = "0.1.1"
+  s.summary      = "All views"
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-                   All Views
+                   All views that can help us develop quickly
                    DESC
 
   s.homepage     = "https://github.com/CrazyDavis/MGViewsSwift"
