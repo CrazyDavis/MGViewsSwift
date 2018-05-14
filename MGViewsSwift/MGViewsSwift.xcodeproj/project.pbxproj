@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		AC7E605193216ED9CEED5AA7 /* Pods_MGViewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */; };
 		B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */; };
+		B893918420A96AD200CE4B89 /* MGPanMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893918320A96AD200CE4B89 /* MGPanMoveView.swift */; };
+		B893918620A96E1D00CE4B89 /* MGViewsSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */; };
+		B893918820A96E2400CE4B89 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = B893918720A96E2400CE4B89 /* README.md */; };
 		B8B8BBFF2068C448005E5906 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BBFE2068C448005E5906 /* AppDelegate.swift */; };
 		B8B8BC012068C448005E5906 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B8BC002068C448005E5906 /* ViewController.swift */; };
 		B8B8BC042068C448005E5906 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8B8BC022068C448005E5906 /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		1E5E5789DC870E807DB9FC89 /* Pods-MGViewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.release.xcconfig"; sourceTree = "<group>"; };
 		AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGViewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTableViewEmptySupport.swift; sourceTree = "<group>"; };
+		B893918320A96AD200CE4B89 /* MGPanMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPanMoveView.swift; sourceTree = "<group>"; };
+		B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MGViewsSwift.podspec; path = ../../MGViewsSwift.podspec; sourceTree = "<group>"; };
+		B893918720A96E2400CE4B89 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		B8B8BBFB2068C448005E5906 /* MGViewsSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGViewsSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8B8BBFE2068C448005E5906 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B8B8BC002068C448005E5906 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -112,6 +118,8 @@
 				B8B8BC052068C448005E5906 /* Assets.xcassets */,
 				B8B8BC072068C448005E5906 /* LaunchScreen.storyboard */,
 				B8B8BC0A2068C448005E5906 /* Info.plist */,
+				B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */,
+				B893918720A96E2400CE4B89 /* README.md */,
 				B8B8BC102068D2B7005E5906 /* Classes */,
 			);
 			path = MGViewsSwift;
@@ -142,6 +150,7 @@
 				B8B8BC1D2068D2B7005E5906 /* MGRotateImageView.swift */,
 				B8B8BC1E2068D2B7005E5906 /* MGRoundView.swift */,
 				B8B8BC1F2068D2B7005E5906 /* MGTextTabLayout.swift */,
+				B893918320A96AD200CE4B89 /* MGPanMoveView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -210,7 +219,9 @@
 			files = (
 				B8B8BC092068C448005E5906 /* LaunchScreen.storyboard in Resources */,
 				B8B8BC062068C448005E5906 /* Assets.xcassets in Resources */,
+				B893918820A96E2400CE4B89 /* README.md in Resources */,
 				B8B8BC042068C448005E5906 /* Main.storyboard in Resources */,
+				B893918620A96E1D00CE4B89 /* MGViewsSwift.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +310,7 @@
 				B8B8BC2A2068D2B7005E5906 /* MGRadioButton.swift in Sources */,
 				B8B8BBFF2068C448005E5906 /* AppDelegate.swift in Sources */,
 				B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */,
+				B893918420A96AD200CE4B89 /* MGPanMoveView.swift in Sources */,
 				B8B8BC252068D2B7005E5906 /* MGBlankShadowView.swift in Sources */,
 				B8B8BC2C2068D2B7005E5906 /* MGRoundView.swift in Sources */,
 				B8B8BC2D2068D2B7005E5906 /* MGTextTabLayout.swift in Sources */,
