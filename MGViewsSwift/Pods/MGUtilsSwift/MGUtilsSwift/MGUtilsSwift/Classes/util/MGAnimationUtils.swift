@@ -12,6 +12,8 @@ import UIKit
 //此動畫不會更改view的真實位置, 觸摸事件仍然在原地, 因此若是要view真的改變位置不可使用
 public class MGAnimationUtils : NSObject, CAAnimationDelegate {
 
+    public override init() {}
+
     //儲存播放的動畫與回傳
     private var animEndHandler: [String : (() -> Void)] = [:]
 

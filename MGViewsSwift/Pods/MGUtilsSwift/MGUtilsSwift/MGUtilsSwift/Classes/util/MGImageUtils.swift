@@ -8,10 +8,13 @@
 
 import Foundation
 import UIKit
+import Kingfisher
 
 
 //將圖檔轉為字串, 或者字串轉為圖檔
 public class MGImageUtils {
+
+    private init() {}
 
     public static func toBase64String(_ image: UIImage) -> String? {
         //Now use image to create into NSData format
@@ -26,5 +29,19 @@ public class MGImageUtils {
             return UIImage(data: data)
         }
         return nil
+    }
+
+    static public func load(_ imageView: UIImageView, url: URL) {
+        imageView.kf.setImage(with: url)
+    }
+
+    public static func load(_ url: URL, handler: @escaping (UIImage?) -> Void) {
+        KingfisherManager.shared.retrieveImage(
+            with: url,
+            options: nil,
+            progressBlock: nil
+        ) { (image, error, cacheType, imageURL) -> () in
+            handler(image)
+        }
     }
 }

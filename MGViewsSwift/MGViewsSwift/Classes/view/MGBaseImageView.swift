@@ -8,10 +8,10 @@
 
 import UIKit
 
-@IBDesignable public class MGBaseImageView: UIImageView {
+public class MGBaseImageView: UIImageView {
 
     //觸摸回饋
-    @IBInspectable public var touchAlpha: Bool = false
+    public var touchAlpha: Bool = false
 
     private var onClickListener: ((UIView) -> Void)?
 

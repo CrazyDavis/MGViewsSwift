@@ -8,10 +8,10 @@
 
 import UIKit
 
-@IBDesignable class MGBaseLabel: UILabel {
+public class MGBaseLabel: UILabel {
 
     //觸摸回饋
-    @IBInspectable var touchAlpha: Bool = false
+    public var touchAlpha: Bool = false
 
     private var onClickListener: ((UIView) -> Void)?
 

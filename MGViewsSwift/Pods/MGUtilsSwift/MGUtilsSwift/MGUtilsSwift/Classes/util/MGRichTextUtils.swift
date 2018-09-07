@@ -15,6 +15,8 @@ import UIKit
  */
 public class MGRichTextUtils {
 
+    public init() {}
+
     private var attrs: [RichAttr] = []
 
     private var defaultSize: CGFloat = 12

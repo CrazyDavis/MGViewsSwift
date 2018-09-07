@@ -11,6 +11,8 @@ import Toast_Swift
 
 public class MGToastUtils {
 
+    private init() {}
+
     //初始化toast相關設定
     public static func initToastSetting() {
         //吐司相關設定

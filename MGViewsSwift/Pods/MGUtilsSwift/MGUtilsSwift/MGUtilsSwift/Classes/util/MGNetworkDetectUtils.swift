@@ -14,7 +14,7 @@ public class MGNetworkDetectUtils {
 
     private let reachability = Reachability()!
 
-    weak var networkDelegate: MGNetworkDetectDelegate?
+    weak public var networkDelegate: MGNetworkDetectDelegate?
 
     //此參數獲取當前網路狀態
     public var status: NetworkStatus {

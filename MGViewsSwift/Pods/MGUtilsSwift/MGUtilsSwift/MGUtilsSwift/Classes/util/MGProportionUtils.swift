@@ -16,6 +16,7 @@ import UIKit
  */
 public class MGProportionUtils {
 
+    private init() {}
 
     //得到相同比例的高
     public static func getHeight(_ oriW: CGFloat, oriH: CGFloat, newW: CGFloat) -> CGFloat {

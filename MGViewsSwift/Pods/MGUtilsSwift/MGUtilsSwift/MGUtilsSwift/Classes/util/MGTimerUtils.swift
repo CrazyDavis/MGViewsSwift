@@ -11,6 +11,8 @@ import Foundation
 //倒數計時工具
 public class MGTimerUtils {
 
+    public init() {}
+
     typealias MissionPair = (what: Int, handler: () -> Void)
 
     //儲存正在倒數的任務

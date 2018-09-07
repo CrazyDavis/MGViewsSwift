@@ -11,6 +11,9 @@ import UIKit
 
 public class MGTransformUtils {
 
+    private init() {}
+
+
     public static func animator(_ view: UIView, attrs: [MGAnimationAttr], duration: TimeInterval) {
         var tranform = CGAffineTransform.identity
 

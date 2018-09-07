@@ -10,6 +10,7 @@ import Foundation
 
 public class MGThreadUtils {
 
+    private init() {}
 
     //主線程 - 同步(卡住當前線程)
     public static func inMain(handler: () -> Void) {
