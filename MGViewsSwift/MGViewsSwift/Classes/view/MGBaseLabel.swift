@@ -11,7 +11,7 @@ import UIKit
 public class MGBaseLabel: UILabel {
 
     //觸摸回饋
-    public var touchAlpha: Bool = false
+    @IBInspectable public var touchAlpha: Bool = false
 
     private var onClickListener: ((UIView) -> Void)?
 
