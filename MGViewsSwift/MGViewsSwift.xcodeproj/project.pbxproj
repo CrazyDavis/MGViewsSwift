@@ -253,6 +253,7 @@
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/CLImagePickerTool/CLImagePickerTool.framework",
+				"${BUILT_PRODUCTS_DIR}/Ipify/Ipify.framework",
 				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
 				"${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework",
 				"${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework",
@@ -264,6 +265,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLImagePickerTool.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ipify.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGBaseViewSwift.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGExtensionSwift.framework",

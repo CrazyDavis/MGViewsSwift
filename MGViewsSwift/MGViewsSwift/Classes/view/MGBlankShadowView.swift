@@ -19,7 +19,7 @@ import MGBaseViewSwift
         didSet { drawBlankPath() }
     }
 
-    @IBInspectable var shadowColor: UIColor = UIColor.init(white: 0.1, alpha: 0.5) {
+    @IBInspectable var outerColor: UIColor = UIColor.init(white: 0.1, alpha: 0.5) {
         didSet { drawBlankPath() }
     }
 
@@ -58,7 +58,7 @@ import MGBaseViewSwift
             shadowPath.usesEvenOddFillRule = true
         }
 
-        fillLayer.fillColor = shadowColor.cgColor
+        fillLayer.fillColor = outerColor.cgColor
         fillLayer.path = shadowPath.cgPath
     }
 
