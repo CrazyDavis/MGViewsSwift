@@ -9,7 +9,8 @@
 import UIKit
 
 //仿照android的radiobutton
-@IBDesignable public class MGRadioButton: UIButton {
+@IBDesignable
+open class MGRadioButton: UIButton {
 
     private var outerCircleLayer = CAShapeLayer()
     private var innerCircleLayer = CAShapeLayer()
@@ -28,7 +29,7 @@ import UIKit
         didSet { setCircleLayouts() }
     }
 
-    override public var currentTitle: String? {
+    override open var currentTitle: String? {
         get { return "" }
         set {}
     }
@@ -117,16 +118,16 @@ import UIKit
     }
 
     // Overriden methods.
-    override public func prepareForInterfaceBuilder() {
+    override open func prepareForInterfaceBuilder() {
         customInitialization()
     }
 
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
         setCircleLayouts()
     }
 
-    override public var isSelected: Bool {
+    override open var isSelected: Bool {
         didSet {
             setFillState()
         }

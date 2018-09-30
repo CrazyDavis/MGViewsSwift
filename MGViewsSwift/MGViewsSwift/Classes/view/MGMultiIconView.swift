@@ -7,79 +7,81 @@
 //
 
 import UIKit
-import MGExtensionSwift
 import MGBaseViewSwift
+import MGExtensionSwift
 
-@IBDesignable public class MGMultiIconView: MGBaseView {
-
+@IBDesignable
+open class MGMultiIconView: MGBaseView {
+    
     @IBInspectable public var normalImage: UIImage? {
         didSet { setNeedsDisplay() }
     }
     @IBInspectable public var highlightImage: UIImage? {
         didSet { setNeedsDisplay() }
     }
-
+    
     @IBInspectable public var normalImageColor: UIColor? {
         didSet { setNeedsDisplay() }
     }
     @IBInspectable public var highlightImageColor: UIColor? {
         didSet { setNeedsDisplay() }
     }
-
+    
     @IBInspectable public var normalTextColor: UIColor = UIColor.black {
         didSet { setNeedsDisplay() }
     }
     @IBInspectable public var highlightTextColor: UIColor = UIColor.black {
         didSet { setNeedsDisplay() }
     }
-
+    
     //圖片跟文字得距離
     @IBInspectable public var spaceBetweenTextImag: CGFloat = 0 {
         didSet { setNeedsDisplay() }
     }
-
+    
     @IBInspectable public var normalText: String? {
         didSet { setNeedsDisplay() }
     }
     @IBInspectable public var highlightText: String? {
         didSet { setNeedsDisplay() }
     }
-
+    
     @IBInspectable public var textSize: CGFloat = 10 {
         didSet { setNeedsDisplay() }
     }
-
+    
     @IBInspectable public var isHighlight: Bool = false {
         didSet { setNeedsDisplay() }
     }
-
-
-    override public var bounds: CGRect {
+    
+    
+    override open var bounds: CGRect {
         didSet { setNeedsDisplay() }
     }
-
+    
     override public init(frame: CGRect) {
         super.init(frame: frame)
         setupView()
     }
-
+    
     required public init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setupView()
     }
-
+    
+    
     // Only override draw() if you perform custom drawing.
     // An empty implementation adversely affects performance during animation.
-    override public func draw(_ rect: CGRect) {
+    override open func draw(_ rect: CGRect) {
         // Drawing code
         super.draw(rect)
-
+        
         let realRect = CGRect(x: realX, y: realY, width: realWidth, height: realHeight)
         let imgRect: CGRect!
-
+        
         var text: String? = nil
         var img: UIImage? = nil
-
+        
         if isHighlight {
             text = highlightText ?? normalText ?? nil
             img = highlightImage ?? normalImage ?? nil
@@ -87,10 +89,10 @@ import MGBaseViewSwift
             text = normalText ?? highlightText ?? nil
             img = normalImage ?? highlightImage ?? nil
         }
-
+        
         let inTextColor = isHighlight ? highlightTextColor : normalTextColor
         let inImageColor = isHighlight ? highlightImageColor : normalImageColor
-
+        
         if let t = text {
             let font: UIFont = UIFont.systemFont(ofSize: textSize)
             let lineH = font.lineHeight
@@ -106,9 +108,9 @@ import MGBaseViewSwift
             t.draw(in: txtRect, withAttributes: stingAttrs)
         } else {
             imgRect = realRect
-
+            
         }
-
+        
         if let showImg = img {
             let scaleImg = showImg.scale(imgRect)
             if let maskColor = inImageColor {
@@ -118,9 +120,9 @@ import MGBaseViewSwift
                 scaleImg.img.draw(in: scaleImg.rect)
             }
         }
-
+        
     }
-
-
-
+    
+    
+    
 }

@@ -8,9 +8,9 @@
 
 import UIKit
 
-public class EndEditingScrollView: UIScrollView {
+open class EndEditingScrollView: UIScrollView {
 
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         super.touchesEnded(touches, with: event)
         endEditing(true)
     }

@@ -19,7 +19,7 @@ import UIKit
 
  最後將需要設置到此點的百分比子view, 針對不可見的ancher view做約束即可
  */
-public class MGPercentPositionLayout: UIView {
+open class MGPercentPositionLayout: UIView {
 
     private typealias AncherView = UIView
 
@@ -36,7 +36,7 @@ public class MGPercentPositionLayout: UIView {
     //在bounds改變了之後, 需要對所有使用中的錨點做一次重新設置約束的動作
     //正常來說只需要對錨點的 leading 跟 top 約束做變動的動作
     //但此處暫時不處理, 直接重新設置所有的constriant
-    override public var bounds: CGRect {
+    override open var bounds: CGRect {
         didSet { resetAllConstraint() }
     }
 

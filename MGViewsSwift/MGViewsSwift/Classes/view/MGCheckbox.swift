@@ -15,7 +15,8 @@ public typealias CheckboxValueChangedBlock = (_ checkBox: MGCheckbox, _ isOn: Bo
     case Thin
 }
 
-@IBDesignable public class MGCheckbox: UIView {
+@IBDesignable
+open class MGCheckbox: UIView {
     // MARK: - Properties
 
     /**
@@ -137,7 +138,7 @@ public typealias CheckboxValueChangedBlock = (_ checkBox: MGCheckbox, _ isOn: Bo
         self.addSubview(self.button)
     }
 
-    override public func layoutSubviews() {
+    override open func layoutSubviews() {
         super.layoutSubviews()
 
         self.button.bounds    = self.bounds

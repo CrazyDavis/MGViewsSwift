@@ -8,7 +8,8 @@
 
 import UIKit
 
-public class MGBaseLabel: UILabel {
+@IBDesignable
+open class MGBaseLabel: UILabel {
 
     //觸摸回饋
     @IBInspectable public var touchAlpha: Bool = false

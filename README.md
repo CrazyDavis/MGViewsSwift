@@ -6,6 +6,7 @@
 所有自定義的通用view  
 
 ## 版本
+1.0.1 - 新增 MGRoundLabel, MGAlignmentImageView  
 1.0.0 - 更新 swift version 到 4.2  
 0.1.5 - MGBaseImageView, MGBaseLabel 加入陰影, MGBlankShadowView 修改框框外部顏色名稱  
 0.1.4 - 修正 觸摸透明 touchAlpha 此屬性無法在 xib/storyboard 設置  

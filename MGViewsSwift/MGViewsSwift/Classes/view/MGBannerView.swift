@@ -13,8 +13,7 @@ import UIKit
  輪播view, 最外層由一個scroll view跟 page control 組成
  scrollview裡面加入兩個需要輪播得view, 達成無限多個view的效果
  */
-
-public class MGBannerView: UIView {
+open class MGBannerView: UIView {
 
     public var autoScrollTimeInterval: TimeInterval = 5  //自動滾動間隔
     private var scrollView: UIScrollView?                //左右滑動view
@@ -29,7 +28,7 @@ public class MGBannerView: UIView {
         didSet { setupView() }
     }
 
-    override public var bounds: CGRect {
+    override open var bounds: CGRect {
         didSet { setupView() }
     }
 

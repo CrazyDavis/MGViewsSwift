@@ -9,7 +9,8 @@
 import UIKit
 
 //可以在資料數量為0時顯示資料為空提示文字
-public class MGTableViewEmptySupport: UITableView {
+@IBDesignable
+open class MGTableViewEmptySupport: UITableView {
 
     @IBInspectable var textSize: CGFloat = 20 {
         didSet {
@@ -25,7 +26,7 @@ public class MGTableViewEmptySupport: UITableView {
 
     public var emptyLabel: UILabel!
 
-    public override func didMoveToSuperview() {
+    open override func didMoveToSuperview() {
         if emptyLabel == nil {
             createEmptyLabel(superview!)
         }
@@ -50,7 +51,7 @@ public class MGTableViewEmptySupport: UITableView {
         emptyLabel.centerYAnchor.constraint(equalTo: self.centerYAnchor).isActive = true
     }
 
-    override public func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
+    override open func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         endEditing(true)
     }
 

@@ -8,7 +8,8 @@
 import UIKit
 import QuartzCore
 
-@IBDesignable open class MGMarqueeLabel: UILabel, CAAnimationDelegate {
+@IBDesignable
+open class MGMarqueeLabel: UILabel, CAAnimationDelegate {
 
     /**
      An enum that defines the types of `MGMarqueeLabel` scrolling

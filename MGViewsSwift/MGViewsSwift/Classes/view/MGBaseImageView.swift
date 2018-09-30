@@ -8,7 +8,8 @@
 
 import UIKit
 
-public class MGBaseImageView: UIImageView {
+@IBDesignable
+open class MGBaseImageView: UIImageView {
 
     //觸摸回饋
     @IBInspectable public var touchAlpha: Bool = false

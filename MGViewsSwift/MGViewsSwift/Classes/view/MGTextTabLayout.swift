@@ -9,7 +9,8 @@
 import UIKit
 
 //仿照android的tabLatout, 實際上就是一個CollectionView, 但使用tab的方式進行封裝
-@IBDesignable public class MGTextTabLayout: UIView {
+@IBDesignable
+open class MGTextTabLayout: UIView {
 
     @IBInspectable public var normalTextColor: UIColor = UIColor.white {
         didSet { if oldValue != normalTextColor { collectionView.reloadData() } }
@@ -91,7 +92,7 @@ import UIKit
 
 
     //寬度改變時需要重算所有width
-    override public var bounds: CGRect {
+    override open var bounds: CGRect {
         didSet { calculateAllWidth() }
     }
 

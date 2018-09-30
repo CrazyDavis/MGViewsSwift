@@ -10,7 +10,7 @@ import UIKit
 import MGUtilsSwift
 
 //自動不停旋轉的view
-public class MGRotateImageView: UIImageView {
+open class MGRotateImageView: UIImageView {
 
     private var isRotating: Bool = false
     private var animationUtils = MGAnimationUtils()

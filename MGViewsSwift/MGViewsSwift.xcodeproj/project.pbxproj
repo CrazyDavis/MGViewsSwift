@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2EB23C2E57D2A95003F1BF71 /* Pods_MGViewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11AF635DE52600BB0CF58F /* Pods_MGViewsSwift.framework */; };
+		B8239275216127F400B5F753 /* MGRoundLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8239274216127F400B5F753 /* MGRoundLabel.swift */; };
+		B82392772161282D00B5F753 /* MGAlignmentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B82392762161282D00B5F753 /* MGAlignmentImageView.swift */; };
 		B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */; };
 		B893918420A96AD200CE4B89 /* MGPanMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893918320A96AD200CE4B89 /* MGPanMoveView.swift */; };
 		B893918620A96E1D00CE4B89 /* MGViewsSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */; };
@@ -36,6 +38,8 @@
 		45B29F3FD52D91D4EBC37F65 /* Pods-MGViewsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.debug.xcconfig"; sourceTree = "<group>"; };
 		528140FDE40F77FF156CE359 /* Pods-MGViewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.release.xcconfig"; sourceTree = "<group>"; };
 		7A11AF635DE52600BB0CF58F /* Pods_MGViewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGViewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8239274216127F400B5F753 /* MGRoundLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGRoundLabel.swift; sourceTree = "<group>"; };
+		B82392762161282D00B5F753 /* MGAlignmentImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGAlignmentImageView.swift; sourceTree = "<group>"; };
 		B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTableViewEmptySupport.swift; sourceTree = "<group>"; };
 		B893918320A96AD200CE4B89 /* MGPanMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPanMoveView.swift; sourceTree = "<group>"; };
 		B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MGViewsSwift.podspec; path = ../../MGViewsSwift.podspec; sourceTree = "<group>"; };
@@ -143,6 +147,8 @@
 				B8B8BC1E2068D2B7005E5906 /* MGRoundView.swift */,
 				B8B8BC1F2068D2B7005E5906 /* MGTextTabLayout.swift */,
 				B893918320A96AD200CE4B89 /* MGPanMoveView.swift */,
+				B8239274216127F400B5F753 /* MGRoundLabel.swift */,
+				B82392762161282D00B5F753 /* MGAlignmentImageView.swift */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -290,6 +296,7 @@
 				B8B8BC222068D2B7005E5906 /* MGBaseImageView.swift in Sources */,
 				B8B8BC202068D2B7005E5906 /* EndEditingScrollView.swift in Sources */,
 				B8B8BC012068C448005E5906 /* ViewController.swift in Sources */,
+				B82392772161282D00B5F753 /* MGAlignmentImageView.swift in Sources */,
 				B8B8BC232068D2B7005E5906 /* MGBaseLabel.swift in Sources */,
 				B8B8BC2B2068D2B7005E5906 /* MGRotateImageView.swift in Sources */,
 				B8B8BC212068D2B7005E5906 /* MGBannerView.swift in Sources */,
@@ -299,6 +306,7 @@
 				B8B8BBFF2068C448005E5906 /* AppDelegate.swift in Sources */,
 				B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */,
 				B893918420A96AD200CE4B89 /* MGPanMoveView.swift in Sources */,
+				B8239275216127F400B5F753 /* MGRoundLabel.swift in Sources */,
 				B8B8BC252068D2B7005E5906 /* MGBlankShadowView.swift in Sources */,
 				B8B8BC2C2068D2B7005E5906 /* MGRoundView.swift in Sources */,
 				B8B8BC2D2068D2B7005E5906 /* MGTextTabLayout.swift in Sources */,
