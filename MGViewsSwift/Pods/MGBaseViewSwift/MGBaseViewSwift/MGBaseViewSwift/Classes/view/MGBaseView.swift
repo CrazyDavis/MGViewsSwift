@@ -108,6 +108,7 @@ open class MGBaseView : UIView {
             self.layer.shadowRadius = shadowRadius
             self.layer.shadowColor = clr.cgColor
         } else {
+            self.layer.shadowOffset = CGSize.init(width: 0, height: -1)
             self.layer.shadowOpacity = 0
         }
     }
@@ -118,7 +119,6 @@ open class MGBaseView : UIView {
             addSubview(content)
             self.content = content
             content.frame = self.bounds
-            
             content.translatesAutoresizingMaskIntoConstraints = false
             content.topAnchor.constraint(equalTo: self.topAnchor).isActive = true
             content.bottomAnchor.constraint(equalTo: self.bottomAnchor).isActive = true

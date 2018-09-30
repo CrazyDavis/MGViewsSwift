@@ -8,7 +8,6 @@
 
 import Foundation
 import Reachability
-import Ipify
 
 //網路狀態檢測
 public class MGNetworkDetectUtils {
@@ -100,17 +99,23 @@ public class MGNetworkDetectUtils {
     
     //取得外部ip, 使用第三方lib -> Ipify
     //Ipify: https://github.com/vincent-peng/swift-ipify
+    //api: https://api.ipify.org?format=json
     func getPublicIpAddress(handler: @escaping ((String?) -> Void)) {
-        Ipify.getPublicIPAddress {
-            switch $0 {
-            case .success(let ip):
-                print("取得 ip 成功: \(ip)")
-                handler(ip)
-            case .failure(let error):
-                print("取得 ip 失敗: \(error)")
+        let url = URL.init(string: "https://api.ipify.org?format=json")!
+        MGNetworkUtils.share.get(url: url, params: nil, paramEncoding: MGURLEncoding.default, headers: nil) { response in
+            if response.success {
+                let jsonText = String.init(data: response.data!, encoding: .utf8)!
+                let model: ApiIPModel = MGJsonUtils.deserialize(from: jsonText)!
+                handler(model.ip)
+            } else {
                 handler(nil)
             }
         }
+    }
+    
+    //反序列化對外ip的api json text
+    class ApiIPModel: Codable {
+        var ip: String
     }
 }
 

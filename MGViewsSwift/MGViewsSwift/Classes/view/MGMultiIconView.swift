@@ -98,10 +98,10 @@ import MGBaseViewSwift
             let txtRect = CGRect(x: rect.minX, y: imgRect.maxY + spaceBetweenTextImag, width: rect.width, height: lineH)
             let style: NSMutableParagraphStyle = NSMutableParagraphStyle()
             style.alignment = .center
-            let stingAttrs: [NSAttributedStringKey : Any] = [
-                NSAttributedStringKey.font : font
-                , NSAttributedStringKey.foregroundColor : inTextColor
-                , NSAttributedStringKey.paragraphStyle : style
+            let stingAttrs: [NSAttributedString.Key : Any] = [
+                NSAttributedString.Key.font : font,
+                NSAttributedString.Key.foregroundColor : inTextColor,
+                NSAttributedString.Key.paragraphStyle : style
             ]
             t.draw(in: txtRect, withAttributes: stingAttrs)
         } else {

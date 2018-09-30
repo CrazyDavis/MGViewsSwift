@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AC7E605193216ED9CEED5AA7 /* Pods_MGViewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */; };
+		2EB23C2E57D2A95003F1BF71 /* Pods_MGViewsSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A11AF635DE52600BB0CF58F /* Pods_MGViewsSwift.framework */; };
 		B8776DB6207C9FAD00CC8442 /* MGTableViewEmptySupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */; };
 		B893918420A96AD200CE4B89 /* MGPanMoveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B893918320A96AD200CE4B89 /* MGPanMoveView.swift */; };
 		B893918620A96E1D00CE4B89 /* MGViewsSwift.podspec in Resources */ = {isa = PBXBuildFile; fileRef = B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */; };
@@ -33,9 +33,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		03103CA61349EA41C2CFFA11 /* Pods-MGViewsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.debug.xcconfig"; sourceTree = "<group>"; };
-		1E5E5789DC870E807DB9FC89 /* Pods-MGViewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.release.xcconfig"; sourceTree = "<group>"; };
-		AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGViewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B29F3FD52D91D4EBC37F65 /* Pods-MGViewsSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		528140FDE40F77FF156CE359 /* Pods-MGViewsSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGViewsSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift.release.xcconfig"; sourceTree = "<group>"; };
+		7A11AF635DE52600BB0CF58F /* Pods_MGViewsSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGViewsSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8776DB5207C9FAD00CC8442 /* MGTableViewEmptySupport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MGTableViewEmptySupport.swift; sourceTree = "<group>"; };
 		B893918320A96AD200CE4B89 /* MGPanMoveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MGPanMoveView.swift; sourceTree = "<group>"; };
 		B893918520A96E1D00CE4B89 /* MGViewsSwift.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = MGViewsSwift.podspec; path = ../../MGViewsSwift.podspec; sourceTree = "<group>"; };
@@ -67,28 +67,20 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC7E605193216ED9CEED5AA7 /* Pods_MGViewsSwift.framework in Frameworks */,
+				2EB23C2E57D2A95003F1BF71 /* Pods_MGViewsSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		282496119CA5FEC35206EB02 /* Pods */ = {
+		8379C19DCCB595D68BAA0DAB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				03103CA61349EA41C2CFFA11 /* Pods-MGViewsSwift.debug.xcconfig */,
-				1E5E5789DC870E807DB9FC89 /* Pods-MGViewsSwift.release.xcconfig */,
+				45B29F3FD52D91D4EBC37F65 /* Pods-MGViewsSwift.debug.xcconfig */,
+				528140FDE40F77FF156CE359 /* Pods-MGViewsSwift.release.xcconfig */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		86CD63A315449D2458DEF24A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				AB1C63EED7ED7B4D1E87B856 /* Pods_MGViewsSwift.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		B8B8BBF22068C448005E5906 = {
@@ -96,8 +88,8 @@
 			children = (
 				B8B8BBFD2068C448005E5906 /* MGViewsSwift */,
 				B8B8BBFC2068C448005E5906 /* Products */,
-				282496119CA5FEC35206EB02 /* Pods */,
-				86CD63A315449D2458DEF24A /* Frameworks */,
+				8379C19DCCB595D68BAA0DAB /* Pods */,
+				D35AF61BC329F71DCE70D3F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,6 +147,14 @@
 			path = view;
 			sourceTree = "<group>";
 		};
+		D35AF61BC329F71DCE70D3F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A11AF635DE52600BB0CF58F /* Pods_MGViewsSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -162,11 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B8B8BC0D2068C448005E5906 /* Build configuration list for PBXNativeTarget "MGViewsSwift" */;
 			buildPhases = (
-				0BF43E71254612288BF662D6 /* [CP] Check Pods Manifest.lock */,
+				DA5812E77EA96030F22DC566 /* [CP] Check Pods Manifest.lock */,
 				B8B8BBF72068C448005E5906 /* Sources */,
 				B8B8BBF82068C448005E5906 /* Frameworks */,
 				B8B8BBF92068C448005E5906 /* Resources */,
-				2583B4167E1CFE126DCBAC24 /* [CP] Embed Pods Frameworks */,
+				3C6F09D4C7A2739C49A6A412 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,56 +227,56 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0BF43E71254612288BF662D6 /* [CP] Check Pods Manifest.lock */ = {
+		3C6F09D4C7A2739C49A6A412 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
+				"${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/MGUtilsSwift/MGUtilsSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGBaseViewSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGExtensionSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGUtilsSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA5812E77EA96030F22DC566 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-MGViewsSwift-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2583B4167E1CFE126DCBAC24 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/CLImagePickerTool/CLImagePickerTool.framework",
-				"${BUILT_PRODUCTS_DIR}/Ipify/Ipify.framework",
-				"${BUILT_PRODUCTS_DIR}/Kingfisher/Kingfisher.framework",
-				"${BUILT_PRODUCTS_DIR}/MGBaseViewSwift/MGBaseViewSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/MGExtensionSwift/MGExtensionSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/MGUtilsSwift/MGUtilsSwift.framework",
-				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
-				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
-				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CLImagePickerTool.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Ipify.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kingfisher.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGBaseViewSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGExtensionSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGUtilsSwift.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGViewsSwift/Pods-MGViewsSwift-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -437,7 +437,7 @@
 		};
 		B8B8BC0E2068C448005E5906 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 03103CA61349EA41C2CFFA11 /* Pods-MGViewsSwift.debug.xcconfig */;
+			baseConfigurationReference = 45B29F3FD52D91D4EBC37F65 /* Pods-MGViewsSwift.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,14 +446,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicalwater.MGViewsSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		B8B8BC0F2068C448005E5906 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E5E5789DC870E807DB9FC89 /* Pods-MGViewsSwift.release.xcconfig */;
+			baseConfigurationReference = 528140FDE40F77FF156CE359 /* Pods-MGViewsSwift.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -462,7 +462,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicalwater.MGViewsSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;

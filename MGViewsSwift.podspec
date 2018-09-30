@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
 
   # ―――  Spec Metadata  ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   s.name         = "MGViewsSwift"
-  s.version      = "0.1.5"
+  s.version      = "1.0.0"
   s.summary      = "All views"
 
   s.description  = <<-DESC

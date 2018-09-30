@@ -41,7 +41,7 @@ import MGBaseViewSwift
 
     override public func setupView() {
         fillLayer = CAShapeLayer()
-        fillLayer.fillRule = kCAFillRuleEvenOdd
+        fillLayer.fillRule = CAShapeLayerFillRule.evenOdd
         self.layer.addSublayer(fillLayer)
 
         drawBlankPath()
